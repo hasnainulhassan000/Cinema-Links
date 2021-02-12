@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html"><img src="images/icons8-back-arrow-64.png">Back</a>
+        <a href="home.html"><img src="images/icons8-home-48.png">Home</a>
+        <!-- <a href="#news">News</a> -->
+        <div class="dropdown">
+          <button class="dropbtn"><img src="images/icons8-gallery-48.png">Galery
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="image.html"><img src="images/icons8-image-24 (1).png">Images</a>
+            <a href="video.html"><img src="images/icons8-video-24 (1).png">Videos</a>
+          </div>
+        </div> 
+      </div>
+      <center><h1 style="color:  blue;">𝕍𝕀𝔻𝔼𝕆𝕊</h1></center>
+      <p style="border-bottom: 3px solid red;"></p>
+      <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-01.mp4">
+          </video>
+      </div>
+      <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-02.mp4">
+          </video>
+      </div>
+      <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-04.mp4">
+          </video>
+      </div>
+      <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-05.mp4">
+          </video>
+      </div>
+      <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-06.mp4">
+          </video>
+      </div>
+      <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-08.mp4">
+          </video>
+      </div>
+      <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-07.mp4">
+          </video>
+      </div>
+       <div style="float: left; margin-left: 12px; margin-right: 12px;">
+        <video width="400" controls>
+            <source src="videos/video-03.mp4">
+          </video>
+      </div>
+</body>
+</html>
